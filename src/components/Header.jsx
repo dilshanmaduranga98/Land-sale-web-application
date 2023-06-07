@@ -20,7 +20,7 @@ function pathMatchRoute(route)
 
 
   return (
-    <div className="sticky top-0 z-50 bg-white shadow bgborder-b">
+    <div className="sticky top-0 z-50 shadow bg-slate-800 bgborder-b">
         <header className='flex items-center justify-between px-1 mx-auto max-w-7xl '>
                 <div className='flex items-center py-3'>
                     <img src="/araliya-logo.png" alt='araliya_logo' className='h-10 cursor-pointer' onClick={()=>navigate("/")}/>

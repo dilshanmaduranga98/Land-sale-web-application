@@ -66,7 +66,7 @@ export default function Password() {
         
       </div>
       <div className='absolute top-0 w-full h-full -z-10'>
-        <img src='/modern-residential-district-with-green-roof-balcony-generated-by-ai.jpg' className='object-cover w-full h-full'/>
+        <img src='/forgot lux.jpg' className='object-cover w-full h-full'/>
       </div>
     </section>
   )

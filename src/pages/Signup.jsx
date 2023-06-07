@@ -47,6 +47,7 @@ export default function Signup() {
           <form>
 
           <input 
+            required
             className='w-full px-4 py-2 transition ease-in-out bg-white border-gray-300 rounded text-md gray-700' 
             type='email' 
             id='email' 
@@ -56,6 +57,7 @@ export default function Signup() {
 
             
             <input 
+            required
             className='w-full px-4 py-2 my-10 transition ease-in-out bg-white border-gray-300 rounded text-md gray-700' 
             type='email' 
             id='email' 
@@ -66,6 +68,7 @@ export default function Signup() {
 
             <div className='relative'>
               <input 
+              required
               className='w-full px-4 py-2 text-gray-700 transition ease-in-out bg-white border-gray-300 rounded text-md' 
               type={showPassword ? "text": "password"}
               id='password' 
