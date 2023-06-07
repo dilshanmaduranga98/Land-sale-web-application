@@ -21,7 +21,6 @@ function App() {
         <Route path="/forgot-password" element={<Password/>}/>
         <Route path="/profile" element={<Profile/>}/>
        </Routes>
-       <Footer/>
     </Router>
    </>
   );
